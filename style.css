@@ -25,17 +25,21 @@ body {
   cursor: pointer;
 }
 
-.nav-links li {
+a:visited {
+  text-decoration: none;
+  color: #e5e5e5;
+}
+.nav-links li, a {
 transition: all 0.3s ease 0s;
+text-decoration: none;
 }
 
-.nav-links li:hover {
+.nav-links li:hover, a:hover{
   color: #fca311;
 }
 
-a:link a:visited {
-  text-decoration: none;
-}
+
+
 
 /* profile section */
 .profile-img {
