@@ -1,28 +1,43 @@
+:root {
+  --teal: #10A19D;
+  --purple: #540375;
+  --orange: #FF7000;
+  --yellow: #FFBF00;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: #e5e5e5;
+  background-image: linear-gradient(to bottom right, var(--teal), var(--purple));
+  height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /* nav bar */
 
 .nav {
   width: 100vw;
-  height: fit-content;
-  background-color: #14213d;
   color: #e5e5e5;
   padding: 10px 0px;
-  margin-bottom: 20px;
+  position: fixed;
+  top: 0%;
 }
 
 .nav-links {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   list-style: none;
-  cursor: pointer;
+}
+
+a {
+  color: #e5e5e5;
 }
 
 a:visited {
@@ -38,6 +53,13 @@ text-decoration: none;
   color: #fca311;
 }
 
+.logo {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  right: 10%;
+}
+
 
 
 
@@ -46,14 +68,18 @@ text-decoration: none;
   width: auto;
   height: 250px;
   border-radius: 100px;
+  margin-right: 100px;
+  border: 5px solid lightgray;
 }
 
 .profile-details {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
-  color: #14213d;
+  /* margin-bottom: 50px;
+  margin-top: 150px; */
+  color: #e5e5e5;
+  height: 100%;
 }
 
 
@@ -63,6 +89,8 @@ text-decoration: none;
   flex-direction: column;
   align-items: center;
   color: #14213d;
+  height: 100%;
+  background-image: linear-gradient(to top right, var(--purple), var(--orange));
 }
 
 .about-container > p {
@@ -72,14 +100,25 @@ text-decoration: none;
 /* projects section  */
 
 .projects-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 100%;
 }
+
 
 .blackjack-container, .workout-container, .help-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.project-img {
+  height: 300px;
+  width: 300px;
 }
 
 /* footer */
@@ -90,7 +129,6 @@ text-decoration: none;
   position: fixed;
   bottom: 0%;
   width: 100vw;
-  background-color: #14213d;
   color: #e5e5e5;
   padding-bottom: 10px;
 }

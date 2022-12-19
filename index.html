@@ -6,19 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css" />
   <script src="https://kit.fontawesome.com/89a81b6c27.js" crossorigin="anonymous"></script>
-  <title>Danny Peterson Resume</title>
+  <title>Danny Peterson</title>
 </head>
 <body>
   <nav class="nav">
     <ul class="nav-links">
+      <img  class="logo" src="./assets/images/logo-no-background.png"/>
       <li>
-        <a href="./index.html">Home</a>
+        <a href="#aboutme">About</a>
       </li>
       <li>
-        <a href="./about.html">About</a>
-      </li>
-      <li>
-        <a href="./projects.html">Projects</a>
+        <a href="#projects">Projects</a>
       </li>
       <li>
         <a href="https://docs.google.com/document/d/1IxtsxBK2IwkgfiZkmD4m8ksmNJVyGsL3bjoEduMeaJ8/edit?usp=sharing" target="_blank">Resume</a>
@@ -26,34 +24,45 @@
     </ul>
   </nav>
 
-  <div class="profile-details">
+  <div class="profile-details" id="profile">
     <img class="profile-img" src="./assets/images/selfie.jpeg"/>
-    <h1>Danny Peterson</h1>
-    <h4>Full Stack Software Engineer</h4>
+    <div class="profile-title">
+      <h1>Danny Peterson</h1>
+      <h4>Full Stack Software Engineer</h4>
+    </div>
   </div>
 
-  <div class="about-container">
+  <div class="about-container" id="aboutme">
     <h2>About me:</h2>
     <h3>Full-Stack Developer</h3>
     <h4>Annapolis, MD</h4>
-    <p>I am a full stack junior software developer driven by growing 1% every day.</p>
+    <p>I am a full stack junior software developer driven by creative thinking and growing 1% every day.</p>
     <p>I am passionate about fitness, finance and gaming, which has led me to the world of software engineering. This is displayed through my projects as a developer.</p>
     <p>Coming from a background in microbiology, I have developed the ability to synthesize information from research articles and apply solutions based on logic.</p>
   </div> 
 
-  <div class="projects-container">
+  <div class="projects-container" id="projects">
     <h2>Projects:</h2>
 
     <div class="blackjack-container">
-      <div class="blackjack project-title">
-        <h3>Blackjack</h3>
+      <div class="blackjack project-img-container">
+        <img class="blackjack project-img" src="./assets/images/Blackjack Table.png"/>
       </div>
-      <img class="blackjack project-img"/>
-      <div class="blackjack project-description">A game of blackjack</div>
-      <div class="blackjack project-links"></div>
+      <div class="blackjack project-details">
+        <h3 class="blackjack project-title">Blackjack</h3>
+        <p class="blackjack project-date">10/1/2022</p>
+        <div class="blackjack project-description">A game of blackjack using classes to define a deck of cards</div>
+        <div class="blackjack project-tech">
+          <h4>Technologies Used:</h4>
+          <P>Html</P>
+          <P>Css</P>
+          <P>JavaScript</P>
+        </div>
+        <div class="blackjack project-links"></div>
+      </div>
     </div>
 
-    <div class="workout-container">
+    <!-- <div class="workout-container">
       <div class="workout project-title">
         <h3>The New Workout Plan</h3>
       </div>
@@ -70,7 +79,7 @@
       <div class="help project-description">Post your food and share with friends</div>
       <div class="help project-links"></div>
     </div>
-  </div>
+  </div> -->
 
   <footer class="footer">
     <h2>Contact Me!</h2>
