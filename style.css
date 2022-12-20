@@ -13,6 +13,7 @@
 body {
   background-image: linear-gradient(to bottom right, var(--teal), var(--purple));
   height: 100vh;
+  font-family: 'Jost', sans-serif;
 }
 
 html {
@@ -76,10 +77,9 @@ text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-bottom: 50px;
-  margin-top: 150px; */
   color: #e5e5e5;
   height: 100%;
+  font-size: 200%;
 }
 
 
@@ -88,13 +88,26 @@ text-decoration: none;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content:space-evenly;
   color: #14213d;
   height: 100%;
   background-image: linear-gradient(to top right, var(--purple), var(--orange));
+  color: #e5e5e5;
 }
 
-.about-container > p {
-  margin: 5px;
+.about-container > h2  {
+  font-size: 50px;
+}
+
+.about-container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 200%;
+}
+
+.about-me {
+  margin: 15px 200px;
 }
 
 /* projects section  */
