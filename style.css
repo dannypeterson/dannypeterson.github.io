@@ -89,14 +89,18 @@ text-decoration: none;
   flex-direction: column;
   align-items: center;
   justify-content:space-evenly;
-  color: #14213d;
+  background-image: url(./assets/images/mountain.jpeg);
+  background-size: cover;
   height: 100%;
-  background-image: linear-gradient(to top right, var(--purple), var(--orange));
   color: #e5e5e5;
+  text-shadow: 0 0 10px black;
 }
 
-.about-container > h2  {
-  font-size: 50px;
+.title {
+  font-size: 7rem;
+  color: #e5e5e5;
+  text-shadow: 0 0 5px black;
+  text-align: center;
 }
 
 .about-container > div {
@@ -107,7 +111,46 @@ text-decoration: none;
 }
 
 .about-me {
-  margin: 15px 200px;
+width: 70%;
+}
+
+
+/* skills section  */
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items:space-evenly;
+  justify-content:center;
+  height: 100%;
+  background-image: url(./assets/images/blade\ runner.jpeg);
+  background-size: cover;
+  color: #e5e5e5;
+}
+
+
+.skills-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: black;
+}
+
+.skills-wrapper > section {
+  font-size: 2rem;
+}
+
+li {
+  list-style: none;
+}
+
+.sql {
+  height: 50px;
+  width: 50px;
+}
+
+.sec1 {
+  margin-left: 200px;
 }
 
 /* projects section  */
