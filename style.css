@@ -142,6 +142,7 @@ width: 70%;
 }
 
 }
+
 /* skills section  */
 
 .skills-container {
@@ -178,6 +179,17 @@ li {
 
 .sec1 {
   margin-left: 10%;
+}
+
+@media (max-width: 600px) {
+  .skills-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec2 {
+    margin-left: 10%;
+  }
+
 }
 
 /* projects section  */
