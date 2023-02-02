@@ -105,18 +105,33 @@ text-decoration: none;
   flex-direction: column;
   align-items: center;
   justify-content:space-evenly;
-  background-image: url(./assets/images/mountain.jpeg);
   background-size: cover;
+  background-image: url(./assets/images/mountain.jpeg);
   height: 100vh;
   color: #e5e5e5;
   text-shadow: 0 0 10px black;
+  position: relative;
 }
+
+.about-container::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-image: url(./assets/images/mountain.jpeg);
+  background-size: cover;
+  filter: brightness(70%);
+}
+
 
 .title {
   font-size: 7rem;
   color: #e5e5e5;
   text-shadow: 0 0 5px black;
   text-align: center;
+  position: relative;
 }
 
 .about-container > div {
@@ -124,6 +139,7 @@ text-decoration: none;
   flex-direction: column;
   align-items: center;
   font-size: 200%;
+  position: relative;
 }
 
 .about-me {
