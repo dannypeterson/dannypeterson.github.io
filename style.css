@@ -126,7 +126,7 @@ text-decoration: none;
 }
 
 
-.title {
+.about-title {
   font-size: 7rem;
   color: #e5e5e5;
   text-shadow: 0 0 5px black;
@@ -148,7 +148,7 @@ width: 70%;
 
 @media (max-width: 600px) {
 
-.title {
+.about-title {
   font-size: 4rem;
 }
 
@@ -171,6 +171,15 @@ width: 70%;
   color: #e5e5e5;
 }
 
+.skills-title {
+  font-size: 4rem;
+  color: #e5e5e5;
+  text-shadow: 0 0 5px black;
+  text-align: center;
+  position: relative;
+  padding-bottom: 4rem;
+}
+
 
 .skills-wrapper {
   display: flex;
@@ -188,8 +197,12 @@ li {
 }
 
 .sql {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
+}
+
+.sec1 {
+  margin-left: 20%;
 }
 
 .sec2 {
