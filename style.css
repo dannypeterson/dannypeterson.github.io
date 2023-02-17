@@ -381,7 +381,16 @@ li {
 }
 
 .rogue-one {
-  background-image: url(./assets/images/rogue\ one.jpeg) ;
-  /* width: fit-content; */
+  background-image: url(./assets/images/rogue\ one.jpeg);
   height: 100vh;
+  display: flex;
+  justify-content: center;
 } 
+
+.rogue-one > h2 {
+  margin-top: 10rem;
+  font-size: 3rem;
+  color: black;
+  text-shadow: 0 0 10px red;
+}
+
