@@ -382,6 +382,7 @@ li {
 
 .rogue-one {
   background-image: url(./assets/images/rogue\ one.jpeg);
+  background-size: cover;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -392,5 +393,20 @@ li {
   font-size: 3rem;
   color: black;
   text-shadow: 0 0 10px red;
+}
+
+.interstellar {
+  background-image: url(./assets/images/interstellar.jpeg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.interstellar > h2 {
+  margin-top: 5rem;
+  font-size: 3rem;
+  color: ghostwhite;
+  text-shadow: 0 0 10px black;
 }
 
