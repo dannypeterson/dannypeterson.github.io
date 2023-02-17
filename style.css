@@ -383,6 +383,7 @@ li {
 .rogue-one {
   background-image: url(./assets/images/rogue\ one.jpeg);
   background-size: cover;
+  background-position: center;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -399,6 +400,7 @@ li {
 .interstellar {
   background-image: url(./assets/images/interstellar.jpeg);
   background-size: cover;
+  background-position: center;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -416,7 +418,6 @@ li {
 
 .rogue-one, .interstellar {
   background-size: cover;
-  background-position: center;
   text-align: center;
 }
 
@@ -424,4 +425,27 @@ li {
   margin-top: 3rem;
 }
 
+}
+
+/* books  */
+
+.books {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: navy;
+}
+
+.books section img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  height: 5rem;
+  width: 5rem;
+  margin: 5rem;
+}
+
+.books section:hover {
+  color: rgb(38, 38, 251);
 }
