@@ -395,6 +395,7 @@ li {
   text-shadow: 0 0 10px red;
 }
 
+
 .interstellar {
   background-image: url(./assets/images/interstellar.jpeg);
   background-size: cover;
@@ -410,3 +411,17 @@ li {
   text-shadow: 0 0 10px black;
 }
 
+
+@media (max-width: 600px) {
+
+.rogue-one, .interstellar {
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.rogue-one > h2, .interstellar > h2 {
+  margin-top: 3rem;
+}
+
+}
