@@ -429,11 +429,20 @@ li {
 
 /* books  */
 
-.books {
+/* .books {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: navy;
+  background-color: white;
+} */
+
+.books {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.books section {
+  text-align: center;
 }
 
 .books section img {
