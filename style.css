@@ -413,6 +413,25 @@ li {
   text-shadow: 0 0 10px black;
 }
 
+.shutter-island {
+  background-image: url(./assets/images/shutter\ island.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.shutter-island > h2 {
+  position: relative;
+  width: 100%;
+  left: 5%;
+  margin-top: 5rem;
+  font-size: 3rem;
+  color: ghostwhite;
+  text-shadow: 0 0 10px black;
+}
+
 
 @media (max-width: 600px) {
 
