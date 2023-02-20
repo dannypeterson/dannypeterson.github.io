@@ -380,6 +380,15 @@ li {
   color: #FF7000;
 }
 
+/* guitar  */
+
+.guitar {
+  width: 100vw;
+  height: 100vh;
+  background-color: #10A19D;
+}
+
+/* movies  */
 .rogue-one {
   background-image: url(./assets/images/rogue\ one.jpeg);
   background-size: cover;
@@ -435,12 +444,12 @@ li {
 
 @media (max-width: 600px) {
 
-.rogue-one, .interstellar {
+.rogue-one, .interstellar, .shutter-island {
   background-size: cover;
   text-align: center;
 }
 
-.rogue-one > h2, .interstellar > h2 {
+.rogue-one > h2, .interstellar > h2, .shutter-island > h2 {
   margin-top: 3rem;
 }
 
