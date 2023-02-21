@@ -390,11 +390,18 @@ li {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  align-items: center;
+}
+
+.guitar section {
+  text-align: center;
 }
 
 .guitar video {
   width: 336px;
-  height: auto;
+  height:fit-content;
+  border: 1px solid rgb(172, 172, 172);
+  border-radius: 5px;
 }
 
 /* movies  */
