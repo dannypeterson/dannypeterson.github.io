@@ -383,7 +383,6 @@ li {
 /* guitar  */
 
 .guitar {
-  width: 100vw;
   min-height: 100vh;
   background-color: #10A19D;
   display: flex;
@@ -449,8 +448,7 @@ li {
 
 .shutter-island > h2 {
   position: relative;
-  width: 100%;
-  left: 5%;
+  right: 30%;
   margin-top: 5rem;
   font-size: 3rem;
   color: ghostwhite;
