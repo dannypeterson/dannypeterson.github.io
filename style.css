@@ -386,6 +386,15 @@ li {
   width: 100vw;
   height: 100vh;
   background-color: #10A19D;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.guitar video {
+  width: 336px;
+  height: auto;
 }
 
 /* movies  */
